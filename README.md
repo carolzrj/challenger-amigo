@@ -18,4 +18,4 @@ E tem como objetivo ser um sorteio de amigo secreto online, feito com muito cari
 
 ### Acesso ao Projeto: 📂
 
-[Clique aqui para testar o projeto] (urlaqui)
+[Clique aqui para testar o projeto](https://carolzrj.github.io/challenger-amigo/)
