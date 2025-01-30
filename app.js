@@ -25,3 +25,14 @@ function atualizarAmigos () {
     }
 }
 
+function sortearAmigo() {
+    if (listaAmigos.length == 0) {
+        alert("Não há amigos disponíveis para sortear. Por favor, insira um nome.");
+        return;
+
+    }
+    let indiceAleatorio = Math.floor(Math.random() * listaAmigos.length);
+    let nomeSorteado = listaAmigos[indiceAleatorio];
+       return document.getElementById("resultado").innerHTML = `Seu amigo secreto é: ${nomeSorteado}`;
+
+}  
